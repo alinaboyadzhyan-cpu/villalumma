@@ -15,7 +15,7 @@ assets/villa-lumma-brochure.pdf   downloadable brochure (same as the source cata
 
 ## Languages
 
-The site auto-detects the visitor's browser language and displays English, French, Italian, German, Dutch, Swedish, Norwegian or Polish — with a manual switcher (top right of the nav, and inside the mobile menu) to override it. If the browser language isn't one of these eight, it defaults to English.
+The site auto-detects the visitor's browser language and displays English, Spanish, French, German, Dutch, Swedish or Polish — with a manual switcher (top right of the nav, and inside the mobile menu) to override it. If the browser language isn't one of these seven, it defaults to English.
 
 Notes:
 - The choice made via the switcher only applies for the current page load — it isn't saved between visits (no cookies/localStorage are used).
