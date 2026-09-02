@@ -13,6 +13,7 @@
   --pino: #2F4A34;
   --pino-dark: #223626;
   --verde-claro: #9FBB8C;
+  --pin-green: #2E8B4F;
   --mar: #2E5259;
   --arena: #CFC5A8;
   --ink-70: rgba(22,36,44,.7);
@@ -399,24 +400,25 @@ section{ padding: 96px 0; }
 .loc-media img{ border: 1px solid rgba(245,241,232,.2); margin-bottom: 12px; }
 .loc-media .loc-cap{ font-family: var(--mono); font-size: 11px; letter-spacing:.06em; color: var(--arena); text-transform:uppercase; }
 
-.loc-map-wrap{ position:relative; overflow:hidden; }
-.loc-map-wrap img{ margin-bottom:0; }
-.map-pin{ position:absolute; transform: translate(-50%, -100%); display:flex; flex-direction:column; align-items:center; }
-.pin-dot{
-  width: 13px; height:13px; border-radius:50%; background: var(--pino);
-  border: 2.5px solid #fff; position:relative; box-shadow: 0 1px 4px rgba(0,0,0,.35);
+.loc-map-wrap{ position:relative; overflow:hidden; cursor: zoom-in; }
+.loc-map-wrap img{ margin-bottom:0; transition: transform .4s ease; }
+.loc-map-wrap:hover img{ transform: scale(1.03); }
+.pin-pulse{
+  position:absolute; transform: translate(-50%, -50%);
+  width: 15px; height:15px; border-radius:50%; pointer-events:none;
 }
-.pin-dot::after{
-  content:""; position:absolute; inset:-11px; border-radius:50%;
-  border: 1.5px solid var(--pino); opacity:.55;
+.pin-pulse::after{
+  content:""; position:absolute; inset:0; border-radius:50%;
+  border: 1.5px solid var(--pin-green); opacity:.7;
   animation: pin-pulse 2.4s ease-out infinite;
 }
 @keyframes pin-pulse{
-  0%{ transform: scale(.55); opacity:.75; }
-  100%{ transform: scale(2); opacity:0; }
+  0%{ transform: scale(.6); opacity:.85; }
+  100%{ transform: scale(2.6); opacity:0; }
 }
+.map-pin{ position:absolute; transform: translate(-50%, calc(-100% - 16px)); display:flex; flex-direction:column; align-items:center; pointer-events:none; }
 .pin-label{
-  margin-top: 8px; background: var(--noche); color: var(--piedra-2);
+  background: var(--noche); color: var(--piedra-2);
   font-family: var(--mono); font-size: 10.5px; letter-spacing:.05em;
   padding: 5px 10px; white-space:nowrap; border-radius: var(--radius);
   box-shadow: 0 2px 8px rgba(0,0,0,.3);

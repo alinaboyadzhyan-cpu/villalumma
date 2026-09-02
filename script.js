@@ -116,6 +116,12 @@ planPanels.forEach(panel => {
   }
 });
 
+// Location map also opens in the same lightbox for a closer look.
+const mapWrap = document.querySelector('.loc-map-wrap');
+if (mapWrap) {
+  mapWrap.addEventListener('click', () => openLightboxFrom([mapWrap], mapWrap));
+}
+
 lbClose.addEventListener('click', closeLightbox);
 lbNext.addEventListener('click', showNext);
 lbPrev.addEventListener('click', showPrev);
