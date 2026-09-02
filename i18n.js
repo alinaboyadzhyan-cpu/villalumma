@@ -166,7 +166,11 @@ const translations = {
     "location.a7": "Shopping malls",
     "location.a8": "Supermarkets",
     "location.a9": "Beauty salons",
-    "location.a10": "Aesthetic clinic"
+    "location.a10": "Aesthetic clinic",
+    "gallery.l16": "Exterior — Corner View at Dusk",
+    "gallery.l17": "Exterior — Garden Terrace at Dusk",
+    "gallery.l18": "Exterior — Poolside at Dusk",
+    "gallery.l19": "Exterior — Front Entrance at Dusk"
   },
   "es": {
     "meta.title": "Villa Lumma — Finestrat Golf Estates, Costa Blanca",
@@ -323,7 +327,11 @@ const translations = {
     "footer.presentedBy": "Presentado por Lumma Capital",
     "lightbox.close": "Cerrar",
     "lightbox.prev": "Foto anterior",
-    "lightbox.next": "Foto siguiente"
+    "lightbox.next": "Foto siguiente",
+    "gallery.l16": "Exterior — Vista de esquina al atardecer",
+    "gallery.l17": "Exterior — Terraza ajardinada al atardecer",
+    "gallery.l18": "Exterior — Piscina al atardecer",
+    "gallery.l19": "Exterior — Entrada principal al atardecer"
   },
   "fr": {
     "meta.title": "Villa Lumma — Finestrat Golf Estates, Costa Blanca",
@@ -480,7 +488,11 @@ const translations = {
     "location.a7": "Centres commerciaux",
     "location.a8": "Supermarchés",
     "location.a9": "Instituts de beauté",
-    "location.a10": "Clinique esthétique"
+    "location.a10": "Clinique esthétique",
+    "gallery.l16": "Extérieur — Vue d'angle au crépuscule",
+    "gallery.l17": "Extérieur — Terrasse jardin au crépuscule",
+    "gallery.l18": "Extérieur — Piscine au crépuscule",
+    "gallery.l19": "Extérieur — Entrée principale au crépuscule"
   },
   "de": {
     "meta.title": "Villa Lumma — Finestrat Golf Estates, Costa Blanca",
@@ -637,7 +649,11 @@ const translations = {
     "location.a7": "Einkaufszentren",
     "location.a8": "Supermärkte",
     "location.a9": "Kosmetikstudios",
-    "location.a10": "Ästhetik-Klinik"
+    "location.a10": "Ästhetik-Klinik",
+    "gallery.l16": "Außenbereich — Eckansicht in der Dämmerung",
+    "gallery.l17": "Außenbereich — Gartenterrasse in der Dämmerung",
+    "gallery.l18": "Außenbereich — Poolbereich in der Dämmerung",
+    "gallery.l19": "Außenbereich — Haupteingang in der Dämmerung"
   },
   "nl": {
     "meta.title": "Villa Lumma — Finestrat Golf Estates, Costa Blanca",
@@ -794,7 +810,11 @@ const translations = {
     "location.a7": "Winkelcentra",
     "location.a8": "Supermarkten",
     "location.a9": "Schoonheidssalons",
-    "location.a10": "Esthetische kliniek"
+    "location.a10": "Esthetische kliniek",
+    "gallery.l16": "Exterieur — Hoekaanzicht in de schemering",
+    "gallery.l17": "Exterieur — Tuinterras in de schemering",
+    "gallery.l18": "Exterieur — Zwembad in de schemering",
+    "gallery.l19": "Exterieur — Hoofdingang in de schemering"
   },
   "sv": {
     "meta.title": "Villa Lumma — Finestrat Golf Estates, Costa Blanca",
@@ -951,7 +971,11 @@ const translations = {
     "location.a7": "Köpcentrum",
     "location.a8": "Livsmedelsbutiker",
     "location.a9": "Skönhetssalonger",
-    "location.a10": "Estetisk klinik"
+    "location.a10": "Estetisk klinik",
+    "gallery.l16": "Exteriör — Hörnvy i skymningen",
+    "gallery.l17": "Exteriör — Trädgårdsterrass i skymningen",
+    "gallery.l18": "Exteriör — Poolområde i skymningen",
+    "gallery.l19": "Exteriör — Huvudentré i skymningen"
   },
   "pl": {
     "meta.title": "Villa Lumma — Finestrat Golf Estates, Costa Blanca",
@@ -1108,7 +1132,11 @@ const translations = {
     "location.a7": "Centra handlowe",
     "location.a8": "Supermarkety",
     "location.a9": "Salony piękności",
-    "location.a10": "Klinika estetyczna"
+    "location.a10": "Klinika estetyczna",
+    "gallery.l16": "Na zewnątrz — Widok narożny o zmierzchu",
+    "gallery.l17": "Na zewnątrz — Taras ogrodowy o zmierzchu",
+    "gallery.l18": "Na zewnątrz — Strefa basenu o zmierzchu",
+    "gallery.l19": "Na zewnątrz — Wejście główne o zmierzchu"
   }
 };
 
